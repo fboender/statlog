@@ -81,4 +81,5 @@ while True:
     stats.update(get_mem())
 
     sys.stdout.write(fmt_fields.format(**stats) + "\n")
+    sys.stdout.flush()
     time.sleep(1)
